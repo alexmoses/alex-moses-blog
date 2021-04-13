@@ -12,10 +12,10 @@ const HeaderTitle = () => {
   return (
     <Link
       to={replaceSlashes(`/${basePath}`)}
-      aria-label={`Alex Moses - Back to home`}
+      aria-label={`${siteTitle} - Back to home`}
       sx={{ color: `heading`, textDecoration: `none` }}
     >
-      <div sx={{ my: 0, fontWeight: `medium`, fontSize: [3, 4] }}>Alex Moses</div>
+      <div sx={{ my: 0, fontWeight: `medium`, fontSize: [3, 4] }}>{siteTitle}</div>
     </Link>
   )
 }
